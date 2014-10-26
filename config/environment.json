@@ -6,5 +6,8 @@
     "production": {
         "host" : "localhost",
         "port" : 80
+    },
+    "heroku": {
+        "host" : "localhost"
     }
 }

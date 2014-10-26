@@ -22,10 +22,12 @@ exports.matches = function (request, response) {
     };
 
     if ('/' == urlParts.pathname) {
-        template.simpleRender('./static/index.html', renderCallbackFunction);
+        console.log('Requesting index.html...');
+        template.simpleRender( global.APP_PATH + 'static/index.html', renderCallbackFunction);
     }
     else if ('/js/chat.js' == urlParts.pathname) {
-        template.simpleRender('./static/js/chat.js', renderCallbackFunction);
+        console.log('Requesting chat.js...');
+        template.simpleRender( global.APP_PATH + 'static/js/chat.js', renderCallbackFunction);
     }
     else if ('/poll/' == urlParts.pathname.substr(0, 6)) {
         var count = urlParts.pathname.substr(6);
@@ -38,6 +40,6 @@ exports.matches = function (request, response) {
         chat.recieveMessage(message, response);
     }
     else {
-        template.simpleRender('./static/404.html', renderCallbackFunction);
+        template.simpleRender( global.APP_PATH + 'static/404.html', renderCallbackFunction);
     }
 };

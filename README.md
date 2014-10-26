@@ -20,5 +20,6 @@ Production system
 The app will be deployed to Heroku. 
 
 - URL to the Live App: http://peaceful-stream-4615.herokuapp.com
+- Correct NODE_ENV Setting: 'heroku' (set via heroku config:set NODE_ENV=heroku)
 
 

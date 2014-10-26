@@ -7,7 +7,7 @@
 var http = require('http'),
     router = require('./router');
 
-settings = require('./settings');
+env = require('./config');
 
 /**
  * Start the server immediatly.
@@ -16,9 +16,9 @@ exports.start = function () {
     http.createServer(function (request, response) {
         // delegate request to router
         router.matches(request, response);
-    }).listen(settings.configuredPort, settings.configuredHost);
+    }).listen(env.variables.port, env.variables.host);
 
-    console.log('Server is up and running on ' + settings.configuredHost + ':' + settings.configuredPort);
+    console.log('Server is up and running on ' + env.variables.host + ':' + env.variables.port);
 }
 
 exports.setContentCallback = function (contentToSet) {

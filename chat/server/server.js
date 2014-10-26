@@ -16,7 +16,7 @@ exports.start = function () {
     http.createServer(function (request, response) {
         // delegate request to router
         router.matches(request, response);
-    }).listen(env.variables.port, env.variables.host);
+    }).listen(env.variables.port);
 
     console.log('Server is up and running on ' + env.variables.host + ':' + env.variables.port);
 }

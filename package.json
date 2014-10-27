@@ -5,7 +5,7 @@
   "main": "chat/server/LongPollingChat.js",
   "scripts": {
     "start": "node chat/server/LongPollingChat.js",
-    "test": "nodeunit chat/test "
+    "test": "nodeunit chat/test/server"
   },
   "engines": {
     "node": "0.10.x"

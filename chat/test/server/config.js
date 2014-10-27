@@ -5,7 +5,7 @@
  *
  * @author Sascha Feldmann (sascha.feldmann@gmx.de)
  */
-var config = require('../server/config.js')
+var config = require('../../server/config.js')
 
 exports.testVariables = function(test) {
     test.expect(2);

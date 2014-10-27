@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: WTfZdvlarFSLhNOQDn5MrYJEb51fwZkZ5SS8dEsItlGoyDNJ3PriYQ8d9s6/1pn4zOoQ2bGO6WV0zYy2jU7HZSZbpX8v9aiL0tsMiHC9SH1WSXd+Ox9Fn+lUjaLjaTJMiBeiHtsb4TLWPoQ/DfBMpElDOV7tftYW6aU7BtW4Kb4=
-  app: deploymentExample
+  app: peaceful-stream-4615
   on:
     repo: anotherSasFeld/deploymentExample

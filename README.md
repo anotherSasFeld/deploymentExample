@@ -1,4 +1,4 @@
-LongPollingChat  <img src="https://travis-ci.org/anotherSasFeld/deploymentExample.svg?branch=master" alt="Travis Build Status"/>
+LongPollingChat  <a href="https://travis-ci.org/anotherSasFeld/deploymentExample" title="Travis Build Status"><img src="https://travis-ci.org/anotherSasFeld/deploymentExample.svg?branch=master" alt="Travis Build Status"/></a>
 =========
 
 This node.js LongpollingChat is used to demonstrate one possible deployment pipeline.

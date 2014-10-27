@@ -16,3 +16,16 @@ exports.testVariables = function(test) {
 
     test.done();
 }
+
+/**
+ * Make sure that an exception is thrown if a config variable does not exist.
+ *
+ * @param test
+ */
+exports.testNotExistingVariables = function(test) {
+    test.expect(1);
+
+    test.throws(config.variables.not_existing);
+
+    test.done();
+}

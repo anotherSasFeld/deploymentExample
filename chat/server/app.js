@@ -5,10 +5,4 @@
  */
 
 // constants
-require('./app');
-
-// dependencies
-var server = require('./server');
-
-// start server
-server.start();
+global.APP_PATH = './chat/server/';

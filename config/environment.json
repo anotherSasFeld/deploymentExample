@@ -8,6 +8,7 @@
         "port" : 80
     },
     "heroku": {
-        "host" : "localhost"
+        "host" : "localhost",
+        "port" : ""
     }
 }

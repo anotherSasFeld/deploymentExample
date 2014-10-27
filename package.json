@@ -4,7 +4,8 @@
   "description": "A Node.JS LongPollingChat to demonstrate a possible deployment pipeline",
   "main": "chat/server/LongPollingChat.js",
   "scripts": {
-    "start": "node chat/server/LongPollingChat.js"
+    "start": "node chat/server/LongPollingChat.js",
+    "test": "nodeunit chat/test "
   },
   "engines": {
     "node": "0.10.x"

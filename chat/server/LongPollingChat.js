@@ -1,7 +1,7 @@
 /**
  * Long-Polling chat demo with Node.js
  *
- * @author Sascha Feldmann
+ * @author Sascha Feldmann (sascha.feldmann@gmx.de)
  */
 
 // constants

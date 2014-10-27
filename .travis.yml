@@ -3,3 +3,6 @@
    - "0.10"
    - "0.8"
    - "0.6"
+ install:
+   - git submodule init
+   - git submodule update
